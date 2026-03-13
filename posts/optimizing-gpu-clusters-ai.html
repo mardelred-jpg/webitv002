@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimizing GPU Clusters for AI Training Workloads | Astartes IT</title>
+    <meta name="description"
+        content="Technical guide on maximizing performance and reducing latency in GPU clusters for large-scale AI model training.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../blog.css">
+</head>
+
+<body>
+
+    <!-- ═══════════════════ NAV ═══════════════════ -->
+    <nav id="nav" class="nav">
+        <div class="nav-inner">
+            <a href="../index.html#hero" class="nav-logo">
+                <img src="../assets/logo-light.png" alt="Astartes IT" class="nav-logo-img">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="../index.html#philosophy" data-en="Philosophy" data-es="Filosofía">Philosophy</a>
+                <a href="../index.html#services" data-en="Services" data-es="Servicios">Services</a>
+                <a href="../index.html#lgd" data-en="LGD Compliance" data-es="Cumplimiento LGD">LGD Compliance</a>
+                <a href="../index.html#sla" data-en="SLAs" data-es="SLAs">SLAs</a>
+                <a href="../index.html#plans" data-en="Plans" data-es="Planes">Plans</a>
+                <a href="../blog.html" class="active" data-en="Blog" data-es="Blog">Blog</a>
+                <a href="../index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button id="langToggle" class="lang-btn" aria-label="Toggle language">
+                    <span class="lang-label" data-en="ES" data-es="EN">ES</span>
+                </button>
+                <button id="menuToggle" class="menu-btn" aria-label="Toggle menu">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════ ARTICLE HEADER ═══════════════════ -->
+    <header class="article-header">
+        <div class="container">
+            <div class="section-label mono" data-en="// cloud_infrastructure" data-es="// infraestructura_cloud">//
+                cloud_infrastructure</div>
+            <h1 data-en="Optimizing GPU Clusters for AI Training Workloads"
+                data-es="Optimizando Clusters de GPU para Cargas de Entrenamiento AI">Optimizing GPU Clusters for AI
+                Training Workloads</h1>
+            <div class="post-meta mono" style="justify-content: center; gap: 2rem; margin-top: 2rem;">
+                <span>2025-03-01</span>
+                <span data-en="8 min read" data-es="8 min lectura">8 min read</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ═══════════════════ ARTICLE CONTENT ═══════════════════ -->
+    <article class="article-content">
+        <div class="container">
+            <img src="https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&q=80&w=1200"
+                alt="GPU Clusters Optimization" class="article-image">
+
+            <div class="article-body">
+                <p data-en="As AI models grow in complexity, the infrastructure supporting them must evolve. Training a modern LLM is no longer just about having 'enough' GPUs; it's about how those GPUs communicate."
+                    data-es="A medida que los modelos de IA crecen en complejidad, la infraestructura que los soporta debe evolucionar. Entrenar un LLM moderno ya no se trata solo de tener 'suficientes' GPUs; se trata de cómo se comunican esas GPUs.">
+                    As AI models grow in complexity, the infrastructure supporting them must evolve. Training a modern
+                    LLM is no longer just about having 'enough' GPUs; it's about how those GPUs communicate.
+                </p>
+
+                <h2 data-en="The Bottleneck: Interconnectivity" data-es="El Cuello de Botella: Interconectividad">The
+                    Bottleneck: Interconnectivity</h2>
+                <p data-en="In large-scale AI training, the biggest bottleneck isn't the compute power of a single card, but the latency between them. Technologies like NVIDIA's NVLink and high-bandwidth networking (InfiniBand or RoCE) are essential."
+                    data-es="En el entrenamiento de IA a gran escala, el mayor cuello de botella no es la potencia de cálculo de una sola tarjeta, sino la latencia entre ellas. Tecnologías como NVLink de NVIDIA y redes de alto ancho de banda (InfiniBand o RoCE) son esenciales.">
+                    In large-scale AI training, the biggest bottleneck isn't the compute power of a single card, but the
+                    latency between them. Technologies like NVIDIA's NVLink and high-bandwidth networking (InfiniBand or
+                    RoCE) are essential.
+                </p>
+
+                <h2 data-en="Storage Throughput" data-es="Rendimiento del Almacenamiento">Storage Throughput</h2>
+                <p data-en="Feeding a GPU cluster requires a storage layer that can keep up. Standard cloud storage often fails here. We recommend parallel file systems like Lustre or specialized high-performance NVMe solutions."
+                    data-es="Alimentar un cluster de GPUs requiere una capa de almacenamiento que pueda seguir el ritmo. El almacenamiento cloud estándar suele fallar aquí. Recomendamos sistemas de archivos paralelos como Lustre o soluciones especializadas de NVMe de alto rendimiento.">
+                    Feeding a GPU cluster requires a storage layer that can keep up. Standard cloud storage often fails
+                    here. We recommend parallel file systems like Lustre or specialized high-performance NVMe solutions.
+                </p>
+
+                <p data-en="At Astartes IT, we specialize in configuring these complex environments to ensure your training runs don't stall due to infrastructure inefficiencies."
+                    data-es="En Astartes IT, nos especializamos en configurar estos entornos complejos para asegurar que tus ejecuciones de entrenamiento no se detengan debido a ineficiencias de infraestructura.">
+                    At Astartes IT, we specialize in configuring these complex environments to ensure your training runs
+                    don't stall due to infrastructure inefficiencies.
+                </p>
+            </div>
+
+            <div style="margin-top: 5rem; border-top: 1px solid var(--blog-border); padding-top: 3rem;">
+                <a href="../blog.html" class="post-link">
+                    <span class="mono">←</span>
+                    <span data-en="Back to Blog" data-es="Volver al Blog">Back to Blog</span>
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="../assets/logo-light.png" alt="Astartes IT" class="nav-logo-img">
+            </div>
+            <p class="footer-copy" data-en="IT infrastructure support for AI, data and cloud companies."
+                data-es="Soporte de infraestructura IT para empresas de AI, data y cloud.">IT infrastructure support for
+                AI,
+                data and cloud companies.</p>
+            <p class="footer-legal mono">© 2025 Astartes IT. <span data-en="All rights reserved."
+                    data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="../index.js"></script>
+</body>
+
+</html>

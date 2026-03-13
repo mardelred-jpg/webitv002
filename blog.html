@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog & Insights | Astartes IT</title>
+    <meta name="description"
+        content="Technical insights on IT infrastructure, AI workloads, Cloud optimization, and LGD compliance.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+
+    <!-- ═══════════════════ NAV ═══════════════════ -->
+    <nav id="nav" class="nav">
+        <div class="nav-inner">
+            <a href="index.html#hero" class="nav-logo">
+                <img src="assets/logo-light.png" alt="Astartes IT" class="nav-logo-img">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html#philosophy" data-en="Philosophy" data-es="Filosofía">Philosophy</a>
+                <a href="index.html#services" data-en="Services" data-es="Servicios">Services</a>
+                <a href="index.html#lgd" data-en="LGD Compliance" data-es="Cumplimiento LGD">LGD Compliance</a>
+                <a href="index.html#sla" data-en="SLAs" data-es="SLAs">SLAs</a>
+                <a href="index.html#plans" data-en="Plans" data-es="Planes">Plans</a>
+                <a href="blog.html" class="active" data-en="Blog" data-es="Blog">Blog</a>
+                <a href="index.html#contact" data-en="Contact" data-es="Contacto">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button id="langToggle" class="lang-btn" aria-label="Toggle language">
+                    <span class="lang-label" data-en="ES" data-es="EN">ES</span>
+                </button>
+                <button id="menuToggle" class="menu-btn" aria-label="Toggle menu">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════ BLOG HERO ═══════════════════ -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="section-label mono" data-en="// insights_and_resources" data-es="// artículos_y_recursos">//
+                insights_and_resources</div>
+            <h1 data-en="Engineering Insights" data-es="Perspectivas de Ingeniería">Engineering Insights</h1>
+            <p class="hero-sub"
+                data-en="Deep dives into cloud infrastructure, AI operations, and legal compliance for modern startups."
+                data-es="Análisis profundos sobre infraestructura cloud, operaciones AI y cumplimiento legal para startups modernas.">
+                Deep dives into cloud infrastructure, AI operations, and legal compliance for modern startups.
+            </p>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ BLOG GRID ═══════════════════ -->
+    <section class="section">
+        <div class="container">
+            <div class="blog-grid">
+
+                <!-- MWC Post 1: AI Infrastructure -->
+                <a href="posts/mwc-ai-infrastructure.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="AI & Infrastructure" data-es="IA e Infraestructura">AI &
+                            Infrastructure</span>
+                        <img src="assets/blog/mwc-ai-infrastructure.png" alt="MWC 2026 AI Infrastructure">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-07</span>
+                            <span class="mono">5 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="MWC Barcelona 2026: AI stopped being a promise and became real infrastructure"
+                            data-es="MWC Barcelona 2026: la inteligencia artificial dejó de ser promesa y pasó a infraestructura real">
+                            MWC Barcelona 2026: AI stopped being a promise and became real infrastructure</h3>
+                        <p class="post-excerpt"
+                            data-en="At MWC 2026, AI appeared as the foundation of a new digital era — not a novelty, but core infrastructure."
+                            data-es="En el MWC 2026, la IA apareció como la base de una nueva etapa digital — no una novedad, sino infraestructura real.">
+                            At MWC 2026, AI appeared as the foundation of a new digital era — not a novelty, but core
+                            infrastructure.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- MWC Post 2: Enterprise AI Agents -->
+                <a href="posts/mwc-enterprise-ai-agents.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="AI & Infrastructure" data-es="IA e Infraestructura">AI &
+                            Infrastructure</span>
+                        <img src="assets/blog/mwc-enterprise-ai.png" alt="Enterprise AI Agents">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-07</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="Enterprise AI at MWC 2026: from chatbots to agents that act on processes"
+                            data-es="La IA empresarial en MWC 2026: del asistente conversacional a los agentes que actúan sobre procesos">
+                            Enterprise AI at MWC 2026: from chatbots to agents that act on processes</h3>
+                        <p class="post-excerpt"
+                            data-en="Enterprise AI evolved from conversational assistants to intelligent agents that automate real business operations."
+                            data-es="La IA empresarial evolucionó de asistentes conversacionales a agentes inteligentes que automatizan operaciones reales.">
+                            Enterprise AI evolved from conversational assistants to intelligent agents that automate
+                            real
+                            business operations.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- MWC Post 3: Robotics -->
+                <a href="posts/mwc-robotics-ai.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="AI & Infrastructure" data-es="IA e Infraestructura">AI &
+                            Infrastructure</span>
+                        <img src="assets/blog/mwc-robotics.png" alt="Robotics at MWC 2026">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-07</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="MWC 2026 and robotics: robots are no longer just an exhibition"
+                            data-es="MWC 2026 y robótica: los robots ya no son una exhibición, son la extensión física de la IA">
+                            MWC 2026 and robotics: robots are no longer just an exhibition</h3>
+                        <p class="post-excerpt"
+                            data-en="Robotics at MWC 2026 is no longer a tech demo — it's the physical extension of AI and connected networks."
+                            data-es="La robótica en el MWC 2026 ya no es una demostración — es la extensión física de la IA y las redes conectadas.">
+                            Robotics at MWC 2026 is no longer a tech demo — it's the physical extension of AI and
+                            connected networks.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- MWC Post 4: Smart Cities -->
+                <a href="posts/mwc-smart-cities-mobility.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Smart Cities" data-es="Ciudades Inteligentes">Smart
+                            Cities</span>
+                        <img src="assets/blog/mwc-smart-cities.png" alt="Smart Cities MWC 2026">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-07</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="Smart cities and mobility at MWC 2026: connected tech enters its operational phase"
+                            data-es="Smart cities y movilidad en MWC 2026: la tecnología conectada entra en fase operativa">
+                            Smart cities and mobility at MWC 2026: connected tech enters its operational phase</h3>
+                        <p class="post-excerpt"
+                            data-en="Smart cities at MWC 2026 moved from showcase projects to operational platforms driven by AI and real-time data."
+                            data-es="Las smart cities en el MWC 2026 pasaron de proyectos de escaparate a plataformas operativas impulsadas por IA y datos en tiempo real.">
+                            Smart cities at MWC 2026 moved from showcase projects to operational platforms driven by AI
+                            and real-time data.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- MWC Post 5: Consumer Ecosystem -->
+                <a href="posts/mwc-consumer-ecosystem.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Consumer Tech" data-es="Tecnología de Consumo">Consumer
+                            Tech</span>
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=800"
+                            alt="Connected Ecosystem">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-07</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="From smartphone to ecosystem: how consumer tech evolved at MWC 2026"
+                            data-es="Del smartphone al ecosistema: así evolucionó la tecnología de consumo en MWC 2026">
+                            From smartphone to ecosystem: how consumer tech evolved at MWC 2026</h3>
+                        <p class="post-excerpt"
+                            data-en="The spotlight shifted from standalone devices to integrated AI ecosystems spanning home, work and mobility."
+                            data-es="El protagonismo pasó de los dispositivos individuales a ecosistemas de IA integrados entre hogar, trabajo y movilidad.">
+                            The spotlight shifted from standalone devices to integrated AI ecosystems spanning home,
+                            work
+                            and mobility.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- MWC Post 6: Processors -->
+                <a href="posts/mwc-processors-efficient-ai.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Cloud Infrastructure" data-es="Infraestructura Cloud">Cloud
+                            Infrastructure</span>
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
+                            alt="AI Processors">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-07</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="MWC 2026 processors: less raw power obsession, more focus on efficient AI"
+                            data-es="Los nuevos procesadores del MWC 2026: menos obsesión por la potencia bruta y más foco en IA eficiente">
+                            MWC 2026 processors: less raw power obsession, more focus on efficient AI</h3>
+                        <p class="post-excerpt"
+                            data-en="The processor race shifted from raw power to efficient AI execution with focus on performance per watt."
+                            data-es="La carrera de procesadores cambió de potencia bruta a ejecución eficiente de IA con foco en rendimiento por vatio.">
+                            The processor race shifted from raw power to efficient AI execution with focus on
+                            performance
+                            per watt.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- MWC Post 7: Photonics -->
+                <a href="posts/mwc-photonics-infrastructure.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Cloud Infrastructure" data-es="Infraestructura Cloud">Cloud
+                            Infrastructure</span>
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
+                            alt="Photonics Infrastructure">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-07</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="Photonics at MWC 2026: reducing power and heat in the new AI era"
+                            data-es="Fotónica en MWC 2026: la apuesta que puede reducir consumo y calor en la nueva era de la IA">
+                            Photonics at MWC 2026: reducing power and heat in the new AI era</h3>
+                        <p class="post-excerpt"
+                            data-en="Photonics emerged as a key technology for sustaining AI growth by reducing energy consumption and thermal density."
+                            data-es="La fotónica surgió como tecnología clave para sostener el crecimiento de la IA reduciendo consumo energético y densidad térmica.">
+                            Photonics emerged as a key technology for sustaining AI growth by reducing energy
+                            consumption
+                            and thermal density.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- MWC Post 8: Telecom Platforms -->
+                <a href="posts/mwc-telecom-ai-platforms.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Cloud Infrastructure" data-es="Infraestructura Cloud">Cloud
+                            Infrastructure</span>
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
+                            alt="Telecom AI Platforms">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-07</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="MWC 2026: telecoms want to become platforms for AI"
+                            data-es="MWC 2026: las telecos quieren dejar de ser simples redes y convertirse en plataformas para IA">
+                            MWC 2026: telecoms want to become platforms for AI</h3>
+                        <p class="post-excerpt"
+                            data-en="Telecom operators are evolving from data carriers into AI-enabled platforms with edge computing and programmable services."
+                            data-es="Las operadoras de telecomunicaciones evolucionan de transportistas de datos a plataformas con IA, edge computing y servicios programables.">
+                            Telecom operators are evolving from data carriers into AI-enabled platforms with edge
+                            computing and programmable services.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- IT Outsourcing Post 1: Business Capacity -->
+                <a href="posts/it-outsourcing-business-capacity.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Managed Services" data-es="Servicios Gestionados">Managed
+                            Services</span>
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
+                            alt="Business Strategy Meeting">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-08</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="Outsourcing IT is not delegating a problem, it is gaining business capacity"
+                            data-es="Externalizar IT no es delegar un problema, es ganar capacidad de negocio">
+                            Outsourcing IT is not delegating a problem, it is gaining business capacity</h3>
+                        <p class="post-excerpt"
+                            data-en="For an SME, external IT is a structural business decision — not just a support purchase."
+                            data-es="Para una pyme, el IT externo es una decisión de estructura empresarial — no una simple compra de soporte.">
+                            For an SME, external IT is a structural business decision — not just a support purchase.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- IT Outsourcing Post 2: Scaling -->
+                <a href="posts/it-scaling-without-oversizing.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Managed Services" data-es="Servicios Gestionados">Managed
+                            Services</span>
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+                            alt="Business Growth Scaling">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-08</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="Scale without oversizing: one of the greatest advantages of external IT"
+                            data-es="Escalar sin sobredimensionar: una de las mayores ventajas del IT externo">
+                            Scale without oversizing: one of the greatest advantages of external IT</h3>
+                        <p class="post-excerpt"
+                            data-en="External IT partners help SMEs scale efficiently without the rigidity of building internal teams from scratch."
+                            data-es="Los partners de IT externo ayudan a las pymes a escalar eficientemente sin la rigidez de construir equipos internos desde cero.">
+                            External IT partners help SMEs scale efficiently without the rigidity of building internal
+                            teams from scratch.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- IT Outsourcing Post 3: In-House -->
+                <a href="posts/it-inhouse-when-it-makes-sense.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="IT Strategy" data-es="Estrategia IT">IT Strategy</span>
+                        <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80&w=800"
+                            alt="In-House IT Team">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-08</span>
+                            <span class="mono">3 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="In-house IT department: when it still makes sense for an SME"
+                            data-es="Departamento IT propio: cuándo sigue teniendo sentido en una pyme">
+                            In-house IT department: when it still makes sense for an SME</h3>
+                        <p class="post-excerpt"
+                            data-en="An in-house team adds value when daily control, deep process alignment or regulatory sensitivity are paramount."
+                            data-es="Un equipo propio aporta valor cuando el control diario, la alineación con procesos o la sensibilidad regulatoria son clave.">
+                            An in-house team adds value when daily control, deep process alignment or regulatory
+                            sensitivity are paramount.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- IT Outsourcing Post 4: Hybrid Model -->
+                <a href="posts/it-hybrid-model-smes.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="IT Strategy" data-es="Estrategia IT">IT Strategy</span>
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800"
+                            alt="Hybrid IT Team Collaboration">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-08</span>
+                            <span class="mono">3 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="The hybrid model: the most realistic formula for many SMEs"
+                            data-es="El modelo híbrido: la fórmula más realista para muchas pymes">
+                            The hybrid model: the most realistic formula for many SMEs</h3>
+                        <p class="post-excerpt"
+                            data-en="Combining internal governance with external coverage offers the best balance of cost, control and responsiveness."
+                            data-es="Combinar gobierno interno con cobertura externa ofrece el mejor equilibrio de coste, control y capacidad de respuesta.">
+                            Combining internal governance with external coverage offers the best balance of cost,
+                            control
+                            and responsiveness.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- IT Outsourcing Post 5: Market Trend -->
+                <a href="posts/it-market-trend-outsourcing.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Market Trends" data-es="Tendencias de Mercado">Market
+                            Trends</span>
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+                            alt="Market Growth Data">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-08</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="The trend is clear: the market moves towards outsourced IT services"
+                            data-es="La tendencia es clara: el mercado se mueve hacia servicios IT externalizados">
+                            The trend is clear: the market moves towards outsourced IT services</h3>
+                        <p class="post-excerpt"
+                            data-en="The managed services market is projected to reach $704B by 2031. Outsourcing IT is now a mature, structural choice."
+                            data-es="El mercado de servicios gestionados proyecta alcanzar $704B en 2031. Externalizar IT es ya una opción madura y estructural.">
+                            The managed services market is projected to reach $704B by 2031. Outsourcing IT is now a
+                            mature, structural choice.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- IT Outsourcing Post 6: Manager Evaluation -->
+                <a href="posts/it-manager-evaluation-guide.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="IT Strategy" data-es="Estrategia IT">IT Strategy</span>
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800"
+                            alt="Executive Decision Making">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2026-03-08</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="What a manager should really evaluate before hiring external IT"
+                            data-es="Qué debería valorar realmente un gerente antes de contratar un servicio IT externo">
+                            What a manager should really evaluate before hiring external IT</h3>
+                        <p class="post-excerpt"
+                            data-en="The best decision is not the most ideological one, but the one most aligned with the stage of the business."
+                            data-es="La mejor decisión no es la más ideológica, sino la más alineada con la etapa del negocio.">
+                            The best decision is not the most ideological one, but the one most aligned with the stage
+                            of
+                            the business.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <a href="posts/lgd-50-employees-threshold.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Legal & Compliance" data-es="Legal y Cumplimiento">Legal &
+                            Compliance</span>
+                        <img src="assets/blog/lgd_50_employees.png" alt="LGD 50 Employees">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2025-03-06</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="LGD: What changes when your company reaches 50 employees"
+                            data-es="LGD: qué cambia cuando tu empresa llega a 50 empleados">LGD: What changes when your
+                            company reaches 50 employees</h3>
+                        <p class="post-excerpt"
+                            data-en="Reaching 50 employees triggers key legal obligations in Spain regarding disability inclusion."
+                            data-es="Llegar a 50 empleados activa obligaciones legales clave en España sobre inclusión de discapacidad.">
+                            Reaching 50 employees triggers key legal obligations in Spain regarding disability
+                            inclusion.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Post 2: Alternative Measures -->
+                <a href="posts/lgd-alternative-measures.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Legal & Compliance" data-es="Legal y Cumplimiento">Legal &
+                            Compliance</span>
+                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800"
+                            alt="Alternative Measures">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2025-03-05</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="Alternative measures to the LGD quota: when can they be used?"
+                            data-es="Medidas alternativas a la cuota LGD: cuándo se pueden usar">Alternative measures to
+                            the LGD quota: when can they be used?</h3>
+                        <p class="post-excerpt"
+                            data-en="When direct hiring isn't feasible, Spanish law allows alternative measures with prior justification."
+                            data-es="Cuando la contratación directa no es viable, la ley permite medidas alternativas con justificación previa.">
+                            When direct hiring isn't feasible, Spanish law allows alternative measures with prior
+                            justification.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Post 3: Equality & Accessibility -->
+                <a href="posts/lgd-equality-and-accessibility.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Legal & Compliance" data-es="Legal y Cumplimiento">Legal &
+                            Compliance</span>
+                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=800"
+                            alt="Equality & Accessibility">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2025-03-04</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title"
+                            data-en="LGD is not just a quota: it also requires equality, accessibility and non-discrimination"
+                            data-es="LGD no es solo cuota: también exige igualdad, accesibilidad y no discriminación">
+                            LGD is not just a quota: it also requires equality, accessibility and non-discrimination
+                        </h3>
+                        <p class="post-excerpt"
+                            data-en="Compliance goes beyond numbers; it affects recruitment, workplace design and internal culture."
+                            data-es="El cumplimiento va más allá de los números; afecta al reclutamiento, diseño y cultura interna.">
+                            Compliance goes beyond numbers; it affects recruitment, workplace design and internal
+                            culture.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Post 4: Reasonable Adjustments -->
+                <a href="posts/lgd-reasonable-adjustments.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Legal & Compliance" data-es="Legal y Cumplimiento">Legal &
+                            Compliance</span>
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+                            alt="Reasonable Adjustments">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2025-03-03</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="Reasonable adjustments and adaptations: often overlooked"
+                            data-es="Ajustes razonables y adaptaciones: a menudo pasados por alto">Reasonable
+                            adjustments and adaptations: often overlooked</h3>
+                        <p class="post-excerpt"
+                            data-en="Practical changes that allow real equality in selection processes and job performance."
+                            data-es="Cambios prácticos que permiten la igualdad real en procesos de selección y laborles.">
+                            Practical changes that allow real equality in selection processes and job performance.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Post 5: Supported Employment -->
+                <a href="posts/lgd-supported-employment.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Legal & Compliance" data-es="Legal y Cumplimiento">Legal &
+                            Compliance</span>
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800"
+                            alt="Supported Employment">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2025-03-02</span>
+                            <span class="mono">3 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="Supported employment: the legal path to real inclusion"
+                            data-es="Empleo con apoyo: la vía legal hacia la inclusión real">Supported employment: the
+                            legal path to real inclusion</h3>
+                        <p class="post-excerpt"
+                            data-en="Individualized guidance and job coaching to bridge the gap in the ordinary labor market."
+                            data-es="Orientación individualizada y coaching laboral para cerrar la brecha en el mercado ordinario.">
+                            Individualized guidance and job coaching to bridge the gap in the ordinary labor market.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Post 6: Challenges & Data -->
+                <a href="posts/lgd-challenges-and-data.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Legal & Compliance" data-es="Legal y Cumplimiento">Legal &
+                            Compliance</span>
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+                            alt="Challenges & Data">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2025-03-01</span>
+                            <span class="mono">4 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="Why LGD remains a real challenge for businesses"
+                            data-es="Por qué la LGD sigue siendo un reto real para las empresas">Why LGD remains a real
+                            challenge for businesses</h3>
+                        <p class="post-excerpt"
+                            data-en="Exploring the gap between legal theory and labor reality with recent SEPE statistics."
+                            data-es="Explorando la brecha entre la teoría legal y la realidad laboral con estadísticas del SEPE.">
+                            Exploring the gap between legal theory and labor reality with recent SEPE statistics.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Original 1: Startup Guide -->
+                <a href="posts/lgd-compliance-startup-guide.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Legal & Compliance" data-es="Legal y Cumplimiento">Legal &
+                            Compliance</span>
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=800"
+                            alt="LGD Compliance Guide">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2025-02-28</span>
+                            <span class="mono">5 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="The Startup Guide to LGD Compliance in Spain"
+                            data-es="Guía para Startups sobre el Cumplimiento LGD en España">The Startup Guide to LGD
+                            Compliance in Spain</h3>
+                        <p class="post-excerpt"
+                            data-en="Essential roadmap for fast-growing companies reaching the 50-employee mark."
+                            data-es="Hoja de ruta esencial para empresas en crecimiento hacia los 50 empleados.">
+                            Essential roadmap for fast-growing companies reaching the 50-employee mark.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Original 2: GPU Clusters -->
+                <a href="posts/optimizing-gpu-clusters-ai.html" class="blog-card reveal">
+                    <div class="post-image-wrap">
+                        <span class="post-category" data-en="Cloud Infrastructure" data-es="Infraestructura Cloud">Cloud
+                            Infrastructure</span>
+                        <img src="https://images.unsplash.com/photo-1591405351990-4726e331f141?auto=format&fit=crop&q=80&w=800"
+                            alt="GPU Clusters">
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="mono">2025-02-25</span>
+                            <span class="mono">8 min read</span>
+                        </div>
+                        <h3 class="post-title" data-en="Optimizing GPU Clusters for AI Training Workloads"
+                            data-es="Optimizando Clusters de GPU para Cargas de Entrenamiento AI">Optimizing GPU
+                            Clusters for AI Training Workloads</h3>
+                        <p class="post-excerpt"
+                            data-en="Technical strategies for reducing latency and maximizing throughput in large-scale model training."
+                            data-es="Estrategias técnicas para reducir la latencia y maximizar el rendimiento en IA a gran escala.">
+                            Technical strategies for reducing latency and maximizing throughput in large-scale model
+                            training.</p>
+                        <span class="post-link">
+                            <span data-en="Read Article" data-es="Leer Artículo">Read Article</span>
+                            <span class="mono">→</span>
+                        </span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="assets/logo-light.png" alt="Astartes IT" class="footer-logo-img">
+            </div>
+            <p class="footer-copy" data-en="IT infrastructure support for AI, data and cloud companies."
+                data-es="Soporte de infraestructura IT para empresas de AI, data y cloud.">IT infrastructure support for
+                AI,
+                data and cloud companies.</p>
+            <p class="footer-legal mono">© 2025 Astartes IT. <span data-en="All rights reserved."
+                    data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
